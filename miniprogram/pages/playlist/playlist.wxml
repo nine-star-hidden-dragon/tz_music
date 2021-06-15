@@ -1,0 +1,12 @@
+<swiper indicator-dots="true" autoplay="true" interval="3000" duration="1000" indicator-active-color="#34d43d">
+  <block wx:for="{{swiperImgUrls}}" wx:key="index">
+    <swiper-item>
+      <image class="img" src="{{item.url}}" mode="widthFix"></image>
+    </swiper-item>
+  </block>
+</swiper>
+<view class="playlist-container">
+  <block wx:for="{{playlist}}">
+    <tz-playlist playlist="{{item}}"></tz-playlist>
+  </block>
+</view>

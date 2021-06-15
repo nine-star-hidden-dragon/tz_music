@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "tz-playlist": "/components/playlist/playlist"
+  }
+}
